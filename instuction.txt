@@ -1,6 +1,23 @@
-how to push to github
+#how to push to github
 
 1.) git status
 2.) git add *
 3.) git commit -m 'message goes in here'
 4.) git push origin main
+
+#to see your history
+1) git log
+
+#how to create a branch
+1) git branch <branch name>
+
+#to check num of branch in your project
+1) git branch
+
+#to enter a branch
+git checkout <branch name>
+
+#push a branch to git hub
+
+git psuh origin <branch-name>
+
