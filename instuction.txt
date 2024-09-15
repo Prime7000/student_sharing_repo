@@ -23,3 +23,21 @@ git psuh origin <branch-name>
 
 #how to delete a branch
 
+git branch -d <branch_name> #to delete branchs that are local
+######################
+git branch -D <branch_name> #to delete branch that has being pushed to github
+
+"""
+Once the branch is deleted locally, you need to delete it from the remote 
+(GitHub). Run this command to remove the branch from the remote repository:
+"""
+
+git push origin --delete <branch_name>
+###########################################
+
+
+#merging branch with main
+
+1) go back to main( git checkout main)
+2) git merge 
+3) git push origin main
